@@ -1,3 +1,32 @@
-h1 {
-    align-content: center;
+@charset "UTF-8";
+td {
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff; 
+	border-radius: 50%;
 }
+
+#jeu table
+{
+    border: solid 3px #000000;
+	background: #0055ff;
+
+}
+
+#jeu td
+{
+    border: 1px solid rgb(14, 55, 145);
+    width : 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+
+#jeu td.joueur1 { 
+	background-color: #ffe400; 
+} 
+
+
+#jeu td.joueur2 { 
+	background-color: #ff0000; 
+} 

@@ -3,7 +3,17 @@ document.getElementById('jeu').innerHTML = "";
 
 function placerPion(ligne, colonne, joueur)
 {
-
+	/*
+	var elt = document.getElementById('id-de-element');
+	if (joueur == 1) 
+	{ 
+		elt.className = 'joueur1' ; 
+	}
+	else 
+	{
+		elt.className = 'joueur2' ;
+	}
+	*/	
 }
 
 
