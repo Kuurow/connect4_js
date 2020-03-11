@@ -6,11 +6,49 @@ td {
 	border-radius: 50%;
 }
 
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(233deg, #000000, #5b008e, #5b008e, #000000);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 36s ease infinite;
+    -moz-animation: AnimationName 36s ease infinite;
+    animation: AnimationName 36s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+
 #jeu table
 {
-    border: solid 3px #000000;
+    border: solid 3px #999999;
 	background: #0055ff;
 
+    -webkit-box-shadow: 5px 5px 5px 3px rgba(255,255,255,0.2);
+    -moz-box-shadow: 5px 5px 5px 3px rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 5px 3px rgba(255,255,255,0.2);
 }
 
 #jeu td
